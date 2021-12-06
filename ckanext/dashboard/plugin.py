@@ -40,7 +40,7 @@ class DashboardView(p.SingletonPlugin):
                 'title': 'Dashboard',
                 'icon': 'dashboard',
                 'iframed': False,
-                'schema': {'json': [ignore_empty, unicode],
+                'schema': {'json': [ignore_empty, str],
                            'added_view_id': [ignore],
                            'user_filter_names': [ignore_missing],
                            'user_filter_fields': [ignore_missing]
